@@ -1,0 +1,24 @@
+.VideoCard{
+    color:white;
+    width: 400px;
+    height: 400px;
+    padding:10px;
+    transition: transform 100ms ;
+}
+.VideoCard:hover{
+    transform: scale(1.09);
+}
+.VideoCard img{
+    height: 300px;
+    object-fit: contain;
+    width: 350px;
+}
+.VideoCard h2{
+    padding-top: 10px;
+}
+.videocard_stats{
+    display: none;
+}
+.VideoCard:hover > .videocard_stats{
+    display: inline;
+}
